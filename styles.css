@@ -1,0 +1,27 @@
+/* ----------------- CSS Reset ----------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------- Typography ---------------- */
+body {
+    font-family: Poppins, sans-serif;
+}
+
+/* ----------------- Layout -------------------- */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.student-details {
+    margin-left: 25px;
+    list-style-type: circle;
+    margin-bottom: 25px;
+}
+
+#last-name {
+    margin-left: 5px;
+}
